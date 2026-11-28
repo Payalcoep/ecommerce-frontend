@@ -15,7 +15,7 @@ export default function Navbar() {
 
   return (
     <header className="navbar">
-      <Link className="brand" to="/">PAYAL<span>STORE</span></Link>
+      <Link className="brand" to="/"><span>Nexora</span></Link>
       <nav>
         <Link to="/">Products</Link>
         {token && <Link to="/orders">My orders</Link>}
